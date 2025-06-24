@@ -1,0 +1,57 @@
+# Binaires Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Fichiers de test
+*.test
+
+# Couverture de code
+*.out
+*.prof
+
+# Dossiers de build
+build/
+dist/
+bin/
+
+# Dépendances
+vendor/
+
+# Fichiers de configuration IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Fichiers système
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+
+# Fichiers temporaires
+tmp/
+temp/
+
+# Fichiers de cache Go
+go.sum
+!go.mod
+
+# Variables d'environnement
+.env
+.env.local
+.env.*.local
+
+# Fichiers de sauvegarde
+*.bak
+*.backup
